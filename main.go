@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
+	"github.com/go-eco/go-server/app"
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	mApp := app.NewApplication()
+	mApp.Run()
 }
